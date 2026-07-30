@@ -1,7 +1,24 @@
 aid: kashya
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kashya.png
 name: Kashya
-description: Kashya is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kashya Inc. was a data-protection software company providing continuous data protection
+  (CDP) and heterogeneous, storage-agnostic data replication for enterprise disaster recovery and
+  business continuity. Founded around 2000 with headquarters in San Jose, California and research
+  and development in Israel, and backed by Battery Ventures among other investors, Kashya was acquired
+  by EMC Corporation in 2006 for a reported ~$153 million. Its technology became the foundation of
+  EMC RecoverPoint. The company has been defunct since the acquisition and operates no independent
+  website, developer portal, or public API surface today.
 url: https://raw.githubusercontent.com/api-evangelist/kashya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,32 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: EMC Corporation
+x-acquired-year: 2006
+x-enrichment-note: 'Defunct since 2006 EMC acquisition (became EMC RecoverPoint); domain kashya.com
+  does not resolve (NXDOMAIN). No live API, docs, or developer surface to search, probe, or derive.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Data Protection
+- Data Replication
+- Continuous Data Protection
+- Disaster Recovery
+- Business Continuity
+- Storage
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
