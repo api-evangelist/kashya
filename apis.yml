@@ -31,7 +31,7 @@ x-acquired-by: EMC Corporation
 x-acquired-year: 2006
 x-enrichment-note: 'Defunct since 2006 EMC acquisition (became EMC RecoverPoint); domain kashya.com
   does not resolve (NXDOMAIN). No live API, docs, or developer surface to search, probe, or derive.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
